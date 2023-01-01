@@ -1,3 +1,4 @@
+import Create from "../../components/Create";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import { HomeWrapper } from "./styles";
@@ -7,6 +8,7 @@ function Home() {
     <HomeWrapper>
       <Header />
       <Hero />
+      <Create />
     </HomeWrapper>
   );
 }
