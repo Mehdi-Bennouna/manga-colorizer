@@ -75,6 +75,7 @@ const DownButton = styled.a`
   background-color: red;
   background: url("images/icons/down-circle.svg");
   
+  border-radius : 50%;
   backdrop-filter : blur(7px);
 `;
 
