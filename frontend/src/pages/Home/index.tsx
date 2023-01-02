@@ -1,5 +1,6 @@
 import About from "../../components/About";
 import Create from "../../components/Create";
+import Footer from "../../components/Footer";
 import Gallery from "../../components/Gallery";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
@@ -13,6 +14,7 @@ function Home() {
       <Create />
       <Gallery />
       <About />
+      <Footer />
     </HomeWrapper>
   );
 }
