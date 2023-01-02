@@ -1,3 +1,4 @@
+import About from "../../components/About";
 import Create from "../../components/Create";
 import Gallery from "../../components/Gallery";
 import Header from "../../components/Header";
@@ -11,6 +12,7 @@ function Home() {
       <Hero />
       <Create />
       <Gallery />
+      <About />
     </HomeWrapper>
   );
 }
