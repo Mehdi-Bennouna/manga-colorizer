@@ -6,7 +6,6 @@ const CreateWrapper = styled.section`
   align-items: center;
   gap: 1rem;
 
-  padding: 5rem 0;
   h1 {
     font-family: "Roboto";
     font-size: 48px;
@@ -44,11 +43,11 @@ const CreateMain = styled.div`
 
   & button:nth-child(2) {
     background-image: url("images/Manga.jpg");
-    
+
     &:hover {
       background-image: none;
     }
-    
+
     &:hover::before {
       background-image: url("images/Manga.jpg");
     }
@@ -79,10 +78,10 @@ const CreateMain = styled.div`
     font-size: 48px;
     font-weight: 600;
     color: transparent;
-    
+
     height: 18rem;
     width: 18rem;
-    
+
     &:hover {
       color: #fff;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
