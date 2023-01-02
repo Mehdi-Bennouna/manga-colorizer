@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import { Github, HeaderWrapper, Logo, Navigation } from "./style";
 
 export default function Header() {
@@ -7,16 +8,16 @@ export default function Header() {
       <Navigation>
         <ul>
           <li>
-            <a href=".">Home</a>
+            <Link  to="Home" spy={true} smooth={true} offset={-5} duration={500}>Home</Link>
           </li>
           <li>
-            <a href=".">Gallery</a>
+            <Link  to="Create" spy={true} smooth={true} offset={0} duration={500}>Create</Link>
           </li>
           <li>
-            <a href=".">About</a>
+            <Link  to="Gallery" spy={true} smooth={true} offset={-20} duration={500}>Gallery</Link>
           </li>
           <li>
-            <a href=".">Create</a>
+            <Link  to="About" spy={true} smooth={true} offset={-5} duration={500}>About</Link>
           </li>
         </ul>
       </Navigation>
