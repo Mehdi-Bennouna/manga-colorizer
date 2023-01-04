@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import { DownButton, HeroMain, HeroWrapper } from "./styles";
 
 export default function Hero() {
@@ -6,9 +7,19 @@ export default function Hero() {
       <HeroMain>
         <h1>AI Art Colorizer</h1>
         <p>Your favorite art now in colors</p>
-        <a href=".">Let's go</a>
+        <Link to="Create" spy={true} smooth={true} offset={0} duration={500}>
+          Let's go
+        </Link>
       </HeroMain>
-      <DownButton href=".">Go down button</DownButton>
+      <DownButton
+        to="Create"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+      >
+        Go down button
+      </DownButton>
     </HeroWrapper>
   );
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import styled from "styled-components";
 
 const HeroWrapper = styled.section`
@@ -53,6 +54,8 @@ const HeroMain = styled.div`
     font-weight: 400;
     color: #fff;
 
+    cursor : pointer;
+
     padding: 0.7rem 1.3rem;
     margin-top: 1rem;
     border: 3px solid #fff;
@@ -62,12 +65,13 @@ const HeroMain = styled.div`
   }
 `;
 
-const DownButton = styled.a`
+const DownButton = styled(Link)`
   position: absolute;
   top: 94%;
   left: 50%;
   transform: translate(-50%, -50%);
 
+  cursor: pointer;
   font-size: 0;
 
   height: 3rem;

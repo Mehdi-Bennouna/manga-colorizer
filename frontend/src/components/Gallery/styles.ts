@@ -7,7 +7,7 @@ const GalleryWrapper = styled.section`
   align-items: center;
   gap: 1rem;
 
-  padding: 5rem 0;
+  padding: 3rem 0 0 0;
 
   h1 {
     font-family: "Roboto";

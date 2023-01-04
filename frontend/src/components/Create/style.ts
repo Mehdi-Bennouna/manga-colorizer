@@ -6,6 +6,8 @@ const CreateWrapper = styled.section`
   align-items: center;
   gap: 1rem;
 
+  padding: 3rem 0 0 0;
+
   h1 {
     font-family: "Roboto";
     font-size: 48px;
