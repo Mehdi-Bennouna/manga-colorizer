@@ -19,6 +19,8 @@ const AboutWrapper = styled.section`
     font-size: 28px;
     font-weight: 300;
     color: #6c7176;
+    width : 900px;
+    text-align : center;
   }
 `;
 

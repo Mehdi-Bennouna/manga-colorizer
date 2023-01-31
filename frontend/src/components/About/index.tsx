@@ -5,7 +5,10 @@ export default function About() {
   return (
     <AboutWrapper>
       <h1 id="About">About</h1>
-      <p>Idk what to put here please fill it fo me lata</p>
+      <p>
+        The dakini deoldify model is based on the original deoldify training
+        code applied to danbooroo digital art dataset
+      </p>
     </AboutWrapper>
   );
 }
